@@ -1,13 +1,13 @@
 <nav class="flex">
-    <div class="navbar-home p-3">
-        <h1>Home</h1>
+    <div class="navbar-home p-6">
+        <a routerLink="home">Home</a>
     </div>
     <div class="flex ml-auto">
-        <ul class="navbar-links flex gap-10 p-3">
-            <li><a routerLink="/writing">Writing</a></li>
-            <li><a routerLink="/video">Video</a></li>
-            <li><a routerLink="/radio">Radio</a></li>
-            <li><a routerLink="/contact" class="pr-4">Contact</a></li>
+        <ul class="navbar-links flex gap-10 p-6" routerLinkActive="active">
+            <li><a routerLink="writing">Writing</a></li>
+            <li><a routerLink="video">Video</a></li>
+            <li><a routerLink="radio">Radio</a></li>
+            <li><a routerLink="contact" class="pr-4">Contact</a></li>
         </ul>
     </div>
 </nav>
