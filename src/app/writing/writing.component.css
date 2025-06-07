@@ -1,0 +1,9 @@
+.outer-div {
+    width: 64rem;
+    padding-left: 10rem;
+}
+
+.header {
+    background-color: #B0E0E6;
+    height: 200px;
+}
