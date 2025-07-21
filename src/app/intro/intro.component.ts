@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { ContentCardComponent } from '../content-card/content-card.component';
+import { RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-intro',
-  imports: [],
+  imports: [ContentCardComponent, RouterLink, RouterModule],
   templateUrl: './intro.component.html',
   styleUrl: './intro.component.css'
 })
 export class IntroComponent {
-
+backgroundPicture = input();
 }

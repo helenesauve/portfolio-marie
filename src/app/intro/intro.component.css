@@ -1,5 +1,13 @@
 .outer-div {
-    width: 64rem;
+    width: 80rem;
     padding-left: 10rem;
     padding-top: 8rem;
+}
+
+.intro-block {
+    height: 600px;
+}
+
+.introduction {
+    width: 600px;
 }
