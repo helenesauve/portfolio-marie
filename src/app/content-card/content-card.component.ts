@@ -1,6 +1,7 @@
 import { Component, input } from '@angular/core';
 
 @Component({
+  standalone: true,
   selector: 'app-content-card',
   imports: [],
   templateUrl: './content-card.component.html',
@@ -8,4 +9,5 @@ import { Component, input } from '@angular/core';
 })
 export class ContentCardComponent {
 backgroundImage = input.required<string>()
+title = input.required<string>()
 }
