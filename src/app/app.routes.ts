@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 import { RadioComponent } from './radio/radio.component';
 import { VideoComponent } from './video/video.component';
 import { IntroComponent } from './intro/intro.component';
@@ -11,7 +11,7 @@ export const routes: Routes = [
   { path: 'home', component: IntroComponent },
   { path: 'video', component: VideoComponent },
   { path: 'radio', component: RadioComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'news-verification', component: NewsVerificationComponent },
 ];
 

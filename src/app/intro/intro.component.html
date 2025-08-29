@@ -1,34 +1,39 @@
-<div class="h-auto flex flex-col p-10">
-  <div class="md:px-40 lg:px-40 pt-30 items-center justify-center">
-    <div class="flex flex-col md:flex-row">
-      <div>
-        <img src="assets/profile-picture.jpg" class="rounded-full object-contain" alt="Profile picture" />
+<div class="flex flex-col min-h-screen">
+  <main class="flex-1">
+    <div class="flex flex-col p-10">
+      <div class="md:px-40 lg:px-40 pt-30 items-center justify-center">
+        <div class="flex flex-col md:flex-row">
+          <div>
+            <img src="assets/profile-picture.jpg" class="rounded-full object-contain" alt="Profile picture" />
+          </div>
+          <div class="pb-8">
+            <h1 class="font-light text-7xl p-4">Marie Sauvé</h1>
+            <h3 class="text-2xl p-4">Multimedia Journalist</h3>
+            <p class="p-4">
+              I’m a multimedia journalist with extensive professional experience across radio, documentary filmmaking,
+              and
+              disinformation investigation. Currently based in Dublin, with strong roots in the UK, where I lived for
+              nearly
+              a
+              decade, I work as a verification journalist at Storyful, covering global news events ranging from
+              conflicts in
+              the Middle East and U.S. politics to European affairs, extreme weather events, and, occasionally, bear
+              season.
+            </p>
+            <p class="p-4">
+              Prior to specialising in verification, I worked with national broadcasters such as the BBC and RTÉ, and
+              contributed to international documentary productions.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="pb-8">
-        <h1 class="font-light text-7xl p-4">Marie Sauvé</h1>
-        <h3 class="text-2xl p-4">Multimedia Journalist</h3>
-        <p class="p-4">
-          I’m a multimedia journalist with extensive professional experience across radio, documentary filmmaking, and
-          disinformation investigation. Currently based in Dublin, with strong roots in the UK, where I lived for nearly
-          a
-          decade, I work as a verification journalist at Storyful, covering global news events ranging from conflicts in
-          the Middle East and U.S. politics to European affairs, extreme weather events, and, occasionally, bear season.
-        </p>
-        <p class="p-4">
-          Prior to specialising in verification, I worked with national broadcasters such as the BBC and RTÉ, and
-          contributed to international documentary productions. Beyond journalism, I’m an avid consumer of the
-          arts—regularly attending galleries, the theatre, opera, and cinema (perhaps more than I should admit). I also
-          write film reviews, essays, and fiction.
-        </p>
+      <div class="flex flex-col md:flex-row justify-center items-center">
+        <app-content-card [backgroundImage]="'assets/news.jpg'" [title]="' News Verification '"
+          class="p-10 cursor-pointer" [routerLink]="['/news-verification']"></app-content-card>
+        <app-content-card [backgroundImage]="'assets/audio.jpg'" [title]="' Video' " class="p-10 cursor-pointer"
+          [routerLink]="['/video']"></app-content-card>
+        <app-content-card [backgroundImage]="'assets/radio.jpg'" [title]="' Radio' " class="p-10 cursor-pointer"
+          [routerLink]="['/radio']"></app-content-card>
       </div>
     </div>
-  </div>
-  <div class="flex flex-col md:flex-row justify-center items-center">
-    <app-content-card [backgroundImage]="'assets/news.jpg'" [title]="' News Verification '" class="p-10 cursor-pointer"
-      [routerLink]="['/news-verification']"></app-content-card>
-    <app-content-card [backgroundImage]="'assets/audio.jpg'" [title]="' Audio & Video' " class="p-10 cursor-pointer"
-      [routerLink]="['/video']"></app-content-card>
-    <app-content-card [backgroundImage]="'assets/radio.jpg'" [title]="' Radio' " class="p-10 cursor-pointer"
-      [routerLink]="['/radio']"></app-content-card>
-  </div>
-</div>
+  </main>
