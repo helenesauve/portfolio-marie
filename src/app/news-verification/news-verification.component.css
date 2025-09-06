@@ -1,5 +1,5 @@
 .header {
-    background-color: #A9BA9D; /* 8A9A5B */
+    background-color: #B7C9C3;
     height: 200px;
 }
 
@@ -7,10 +7,6 @@
     width: 560px;
 }
 
-.underlay {
-    background-color: #B0E0E6;
-}
-
 .background {
-    background-color: #FFFFFF;
+    background-color: #eeedf3;
 }
