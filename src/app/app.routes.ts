@@ -7,8 +7,8 @@ import { IntroComponent } from './intro/intro.component';
 import { NewsVerificationComponent } from './news-verification/news-verification.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: IntroComponent },
+  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', component: IntroComponent },
   { path: 'video', component: VideoComponent },
   { path: 'radio', component: RadioComponent },
   { path: 'about', component: AboutComponent },
